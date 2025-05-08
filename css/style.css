@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+header {
+  margin-top: 51px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+header nav .logo img {
+  width: 196px;
+  height: 46px;
+}
+
+header nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+header nav .menu a {
+  text-decoration: none;
+  color: #3D3D3F;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+header nav .menu a:hover {
+  color: #F35F2F;
+}
+
+header nav button {
+  background-color: #F35F2F;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+header nav button:hover {
+  background-color: #ec460f;
+}
+
+header .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 61px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .text .header-left h1 {
+  padding-top: 36px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+  color: #3D3D3F;
+}
+
+header .text .header-left p {
+  margin-top: 42px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #3D3D3F;
+}
+
+header .text .header-left button {
+  padding: 14px 28px 15px 28px;
+  margin-top: 40px;
+  background-color: #F35F2F;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+header .text .header-left button:hover {
+  background-color: #ec460f;
+}
+
+.goal {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.goal h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 55px;
+}
+
+.goal .clients {
+  padding: 50px;
+  width: 1170px;
+  height: 260px;
+  margin: 0 auto;
+  border: 2px solid #EBEBEBCC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 60px;
+  border-radius: 17px;
+}
+
+.goal .clients .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 34px 93px 56px 67px;
+}
+
+.goal .clients .card h2 {
+  padding-top: 23px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.goal .clients .card p {
+  padding-top: 13px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #3d3d3fd8;
+}
+
+.goal .clients .projects {
+  border-right: 2px solid #EBEBEBCC;
+}
+
+.goal .clients .active {
+  border-right: 2px solid #EBEBEBCC;
+}
+/*# sourceMappingURL=style.css.map */
